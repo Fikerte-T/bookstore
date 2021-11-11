@@ -1,22 +1,26 @@
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import Books from './components/books';
-import Categories from './components/categories';
+import { Provider } from 'react-redux';
+import Books from './components/Books';
+import Categories from './components/Categories';
 import Navbar from './components/Navbar';
+import store from './redux/configureStore';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Switch>
-        <Route exact path="/">
-          <Books />
-        </Route>
-        <Route path="/categories">
-          <Categories />
-        </Route>
-      </Switch>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Books />
+          </Route>
+          <Route path="/categories">
+            <Categories />
+          </Route>
+        </Switch>
+      </div>
+    </Provider>
   );
 }
 
