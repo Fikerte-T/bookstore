@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians
+# Book store -- React
 
 >Bookstore website is a React and Redux app. The purpose of this first milestone is to lay foundations for the app, structuring the files using "feature folder" approach and to setup routing using React Router.
 
