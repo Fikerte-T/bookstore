@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Categoriess = () => (
+const Categories = () => (
   <h1>Under construction</h1>
 );
 
-export default Categoriess;
+export default Categories;

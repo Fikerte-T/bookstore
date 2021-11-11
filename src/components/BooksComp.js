@@ -6,7 +6,7 @@ import BookList from './BooksList';
 
 const selectBooks = (state) => state.books;
 
-const Bookss = () => {
+const Books = () => {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
@@ -52,4 +52,4 @@ const Bookss = () => {
     </div>
   );
 };
-export default Bookss;
+export default Books;
