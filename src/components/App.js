@@ -1,8 +1,8 @@
 // import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import Books from './BooksComp';
-import Categories from './CategoriesComp';
+import Books from './Books';
+import Categories from './Categories';
 import Navbar from './Navbar';
 import store from '../redux/configureStore';
 
